@@ -1,0 +1,130 @@
+
+*{
+margin: 0;padding: 0;box-sizing: border-box;
+}
+header#nh{
+    height: 60px;
+    background-color: #34495e;
+    margin: 0;padding: 0;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+nav#nv{
+    display: flex;
+
+    height: 100%;
+    .nl{
+        display:flex;
+        align-items: center;
+        flex: 1;
+        a{
+        display: flex;
+        align-items: center;
+        flex: 1;
+        text-transform: capitalize;
+        text-decoration: none;
+        color: #fff;
+        p{
+            margin-left: 10px;
+            text-transform: capitalize;
+            font-size: 20px;
+            font-weight: 500;
+        }
+        img{
+            width: 30px;
+            height: 30px;
+        }
+        }
+    }
+    .na{
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        #nul{
+            display: flex;
+            align-items: center;
+            li{
+                list-style: none;
+                
+                a{
+                    padding: 5px 10px;
+                    border-radius: 3px;
+                    margin: 0px 5px;
+                    display: inline-block;
+                    text-transform: capitalize;
+                    text-decoration: none;
+                    color: #fff;
+                    transition: background .3s ease-in-out;
+                    &:hover{
+                        background-color: #fda518;
+                        
+                    }
+
+                }
+            }
+        }
+    }
+    .nb{
+        display: none;
+    }
+    }
+    @media screen and (max-width:772px){
+        .nha{
+            height: auto !important ;   
+            padding: 20px 0 !important;
+            transition: height .5s;
+            align-items: flex-start !important;  
+        } 
+        .nva{
+           flex-direction: column;
+           position: relative;
+        }
+        nav#nv{
+           position: relative;
+        .na{
+            .nula{
+                flex-direction: column;
+                width: fit-content;
+                margin-top: 20px;
+                width: 100%;
+                display: flex !important; 
+                border-top: 1px solid #fbfbf8;
+            }
+               ul#nul{
+                display: none;
+                li{
+                    margin: 5px 0;
+                    width: 100%;
+                    a{
+                        width: 100%;
+                    }
+                } 
+               }
+          }
+        .nb{
+                position: absolute;
+                top:-5px;
+                right: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                cursor: pointer;
+            span{
+                display: inline-block;
+                height: 2px;
+                width: 30px;
+                background-color: #fff;
+                margin: 5px 0;
+            }
+        }
+    }
+    }
+       
+
+
+
+
